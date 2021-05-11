@@ -18,7 +18,7 @@ public class PersonServices {
 		person.setId(counter.incrementAndGet());
 		person.setFirstName("Vinicius");
 		person.setLastName("Santos");
-		person.setAdress("Rua Bla Bla, 506 - Vila Velha");
+		person.setAddress("Rua Bla Bla, 506 - Vila Velha");
 		person.setGender("Male");
 		return person;
 	}
@@ -37,7 +37,7 @@ public class PersonServices {
 		person.setId(counter.incrementAndGet());
 		person.setFirstName("Nome da pessoa " + i);
 		person.setLastName("Sobrenome da pessoa " + i);
-		person.setAdress("Um endereço xis " + i);
+		person.setAddress("Um endereço xis " + i);
 		person.setGender("Male");
 		return person;
 	}

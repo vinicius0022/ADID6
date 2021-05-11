@@ -1,4 +1,4 @@
-package br.edu.ifsp.model;
+package br.edu.ifsp.data.model;
 
 import java.io.Serializable;
 
